@@ -16,34 +16,54 @@ body{
     left: 0;
     width: 100%;
     padding: 1rem;
+    border-bottom: solid 1px black;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1rem;
+    gap: 1rem 2rem;
 }
 
 .logo{
-    width: 2rem;
+    width: 1.7rem;
 }
 
 .menu_text{
+    display: flex;
+    flex-wrap: wrap;
     font-size: 1rem;
-    gap: .5rem;
-}
-
-a{
+    gap: 0 .5rem;
     color: black;
 }
-a:link {
+
+.menu_text a{
     text-decoration: none;
+    transition: color .25s;
 }
-a:visited {
-    text-decoration: none;
+
+.menu_text a:hover {
+    color: rgb(100, 100, 100);
 }
-a:hover {
-    text-decoration: underline;
+
+.menu_text a:visited {
+    color: rgb(100, 100, 100);
+  }
+
+.page-title{
+    position: relative;
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px black;
 }
-a:active {
-    text-decoration: underline;
+
+.page-title img{
+    width: 10rem;
 }
+
+
+
+
+
