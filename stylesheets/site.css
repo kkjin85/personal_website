@@ -1,8 +1,6 @@
-/* :root{
-    --clr-font: #2a2828;
-    --clr-bg: ;
-    --clr-white: #fefefe;
-} */
+:root{
+    --header-height: 4rem;
+}
 
 html{
     scroll-behavior: smooth;
@@ -16,6 +14,7 @@ html{
 }
 
 body{
+    
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
     display: flex;
@@ -24,6 +23,7 @@ body{
 
 
 img{
+    width: 100%;
     display: block;
 }
 
@@ -33,6 +33,7 @@ header{
     left: 0;
     width: 100%;
     padding: 1rem;
+    height: var(--header-height);
     border-bottom: solid 1px black;
 
     display: flex;
@@ -78,4 +79,12 @@ header{
     text-decoration: none;
     border: solid 1px black;
     border-radius: 50%;
+}
+
+
+footer{
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+    color: rgb(100, 100, 100);
+    padding: 2rem;
 }
