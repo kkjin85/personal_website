@@ -65,7 +65,7 @@ header .menu_text ul li{
 header .menu_text ul li a{
     color: black;
     font-size: 18px;
-    padding-left: 1rem;
+    padding-left: 2rem;
     display: block;
     text-decoration: none;
     transition: color .25s;

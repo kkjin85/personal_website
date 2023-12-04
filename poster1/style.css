@@ -5,10 +5,51 @@ main{
 
 }
 
-.description{
+.project-info{
     padding-bottom: 2rem;
     font-size: 18px;
     line-height: 24px;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.describe{
+    float: left;
+    /* padding: 10px; */
+}
+  
+.no {
+    width: 30%;
+    line-height: 1.4;
+    padding-right: 1rem;
+    padding-bottom: .5rem;
+}
+  
+.yes {
+    width: 70%;
+    line-height: 1.4;
+}
+
+.title{
+    text-decoration: underline;
+    /* font-weight: 600;
+    letter-spacing: .4px; */
+}
+.year{
+    text-decoration: underline;
+    /* font-weight: 600;
+    letter-spacing: .4px; */
+}
+.material{
+    text-decoration: underline;
+    /* font-weight: 600;
+    letter-spacing: .4px; */
+}
+.description{
+    text-decoration: underline;
+    /* font-weight: 600;
+    letter-spacing: .4px; */
 }
 
 .details{
@@ -29,3 +70,10 @@ main{
 .details img:nth-child(2) { grid-area: 1 / 2 / 2 / 3; }
 .details img:nth-child(3) { grid-area: 2 / 2 / 3 / 3; }
 .details img:nth-child(4) { grid-area: 3 / 1 / 4 / 3; }
+
+
+@media screen and (max-width: 991px) {
+    .describe {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,6 @@
+main{
+    margin-top: var(--header-height);
+    background-color: rgb(236, 236, 236);
+    padding: 1rem 1rem;
+
+}
