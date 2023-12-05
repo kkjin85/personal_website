@@ -1,6 +1,78 @@
 main{
     margin-top: var(--header-height);
     background-color: rgb(236, 236, 236);
+    height: 100vh;
     padding: 1rem 1rem;
-
 }
+
+.contact-icon {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+.contact-icon li {
+    list-style: none;
+  }
+  
+.contact-icon li a {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 80px;
+    font-size: 35px;
+    margin: 0 1.5rem;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1;
+  }
+  
+.contact-icon li a .icon {
+    position: relative;
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
+  }
+  
+.contact-icon li a:hover .icon {
+    color: #fff;
+    transform: rotateY(360deg);
+  }
+  
+.contact-icon li a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: .5s;
+    z-index: 2;
+  }
+  
+.contact-icon li a:hover:before {
+    top: 0;
+  }
+  
+.contact-icon li:nth-child(1) a:before{
+    background: #3b5999;
+  }
+  
+.contact-icon li:nth-child(2) a:before{
+    background: #55acee;
+  }
+  
+.contact-icon li:nth-child(3) a:before {
+    background: #0077b5;
+  }
+  
+.contact-icon li:nth-child(4) a:before {
+    background: #dd4b39;
+  }
