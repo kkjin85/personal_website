@@ -58,6 +58,10 @@ header{
     color: rgb(150, 150, 150);
 } */
 
+body {
+    overflow-x: hidden;
+}
+
 .landing-page{
     background-color: white;
     margin-top: var(--header-height);
@@ -108,36 +112,43 @@ header{
     background-color: rgb(236, 236, 236);
     display: grid;
     /* grid-template-columns: 1fr 1fr 1fr; these are column number and width */
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     align-items: end;
     gap: 5rem 0rem;
 }
 
-.posters img{
+
+.posters img {
     position: relative;
     width: 100%;
-    padding: 1rem 4rem 3rem 4rem;
-    z-index: 1;
+    z-index: 2;    
+    transition: all .3s ease;
     transform-style: preserve-3d;
-    transform: rotateX(0.3deg);
-    transition: .3s ease;
+    transform: perspective(3000px) translateY(-9%) rotateX(10deg);
+    object-fit: contain;
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.4), 5px 3px 5px 0px rgba(0,0,0,0.3), -5px 3px 5px 0px rgba(0,0,0,0.3);
+}
+
+.posters .jazz img{
+    transform: perspective(2500px) translateY(-8.5%)rotateX(10deg);
 }
 
 .posters img:hover{
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    transition: .3s ease;
+    transform: scale(1.025) translateY(-12%);
+    box-shadow: 9px 4px 12px 2px rgba(0,0,0,0.15), -9px 4px 12px 2px rgba(0,0,0,0.15);
 }
 
-.posters a{
+.posters div{
+    z-index: 1;    
     position: relative;
-    perspective: 100px;
+    width: 100%;
+    padding: 4rem 4rem 0rem 4rem;   
 }
 
 .posters a::before{
     content:"";
-    width: 100%;
+    width: 100vw;
+    left: 0;
     height: 1rem;
     background-color: rgb(200, 200, 200);
     position: absolute;
@@ -201,7 +212,7 @@ header{
     z-index: 0;
 }
 
-@media screen and (max-width:991px){
+/* @media screen and (max-width:991px){
     .posters img{
         transition: none
     }
@@ -212,4 +223,29 @@ header{
         transform: scale(0);
         transition: none
     }
+} */
+
+/* Regular styles for all devices */
+.touch-device .posters img:hover {
+    transform: none;
 }
+
+.touch-device .posters img {
+    transition: unset;
+    transform: none;
+}
+
+
+  
+  /* Styles for touch devices */
+  /* @media only screen and (max-width: 2000px) {
+    .posters img:hover {
+        
+        transform: none;
+    }
+
+    .posters img {
+        transition: unset;
+        transform: none;
+    }
+  } */

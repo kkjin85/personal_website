@@ -1,69 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheets/site.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheets/site.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <title>KyujinHan Website</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="menubar">
-        <a href=".">
-            <img class="logo" src="./image/logo.svg" alt="logo">
-        </a>
+      <a href=".">
+        <img class="logo" src="./image/logo.svg" alt="logo" />
+      </a>
 
-        <input type="checkbox" id="menu-bar">
-        <label for="menu-bar"><i class="fa-solid fa-ellipsis fa-xl"></i></label>
+      <input type="checkbox" id="menu-bar" />
+      <label for="menu-bar"><i class="fa-solid fa-ellipsis fa-xl"></i></label>
 
-        <nav class="menu_text">
-            <ul>
-                <li><a class="work" href="#">work</a></li>
-                <li><a class="about" href="./about/index.html">about</a></li>
-                <li><a class="contact" href="./contact/index.html">contact</a></li>
-            </ul>
-        </nav>
+      <nav class="menu_text">
+        <ul>
+          <li><a class="work" href="#">work</a></li>
+          <li><a class="about" href="./about/index.html">about</a></li>
+          <li><a class="contact" href="./contact/index.html">contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <div class="landing-page">
-            <img class="designedby" src="./image/designedby.svg" alt="designed-by">
-            <img class="kyujinhan" src="./image/kyujinhan.svg" alt="kyujin-han">
-        </div>
+      <div class="landing-page">
+        <img
+          class="designedby"
+          src="./image/designedby.svg"
+          alt="designed-by"
+        />
+        <img class="kyujinhan" src="./image/kyujinhan.svg" alt="kyujin-han" />
+      </div>
 
-        <div class="posters-cat">
-            <hr>
-            <p>posters</p>
-        </div>
-        
+      <div class="posters-cat">
+        <hr />
+        <p>posters</p>
+      </div>
 
-        <div class="posters">
-                <a href="./poster1/index.html"><img src="./image/poster1 shadow.svg" alt="repeat"></a>
-                <a href="#"><img src="./image/poster2 shadow.svg" alt="paperfold"></a>
-                <a href="#"><img src="./image/2poster3 shadow.svg" alt="bicyclekick"></a>
-                <a href="#"><img src="./image/poster4 shadow.svg" alt="jazz"></a>
-                <a href="#"><img src="./image/poster5 shadow.svg" alt="movie"> </a>
+      <div class="posters">
+        <div>
+          <a href="./poster1/index.html"
+            ><img src="./image/(web-final)architecture-poster.jpg" alt="repeat"
+          /></a>
         </div>
+        <div>
+          <a href="#"
+            ><img src="./image/(webb-final)archi-sketch-7-06-01.jpg" alt="paperfold"
+          /></a>
+        </div>
+        <div>
+          <a href="#"
+            ><img src="./image/[Wed Fin]Kyujin Han_MUSEUM, ON EXACTITUDE IN SCIENCE_bicycle kick.jpg" alt="bicyclekick"
+          /></a>
+        </div>
+        <div class="jazz">
+          <a href="#"><img src="./image/(web-Print)Miles-Davis-Poster-Final-1.jpg" alt="jazz" /></a>
+        </div>
+        <div>
+          <a href="#"><img src="./image/(web)KyujinHan_MonsterHorror_Searching.jpg" alt="movie" /> </a>
+        </div>
+      </div>
 
-        <div class="publications-cat">
-            <hr>
-            <p>publications</p>
-        </div>
+      <div class="publications-cat">
+        <hr />
+        <p>publications</p>
+      </div>
 
-        <div class="publications">
-            <a href="./publications1/index.html"><img src="./image/(web shadow)LeMans.png" alt="lemans"></a>
-            <a href="#"><img src="./image/(webb-final)archi-sketch-7-06-01.jpg" alt="paperfold"></a>
-            <a href="#"><img src="./image/[Wed Fin]Kyujin Han_MUSEUM, ON EXACTITUDE IN SCIENCE_bicycle kick.jpg" alt="bicyclekick"></a>
-        </div>
+      <div class="publications">
+        <a href="./publications1/index.html"
+          ><img src="./image/(web shadow)LeMans.png" alt="lemans"
+        /></a>
+        <a href="#"
+          ><img
+            src="./image/(webb-final)archi-sketch-7-06-01.jpg"
+            alt="paperfold"
+        /></a>
+        <a href="#"
+          ><img
+            src="./image/[Wed Fin]Kyujin Han_MUSEUM, ON EXACTITUDE IN SCIENCE_bicycle kick.jpg"
+            alt="bicyclekick"
+        /></a>
+      </div>
     </main>
 
     <footer>
-        <p>&copy; 2023 Kyujin Han</p>
+      <p>&copy; 2023 Kyujin Han</p>
     </footer>
 
     <a href="#TOP" class="back-to-top">&uarr;</a>
 
-
-</body>
+    <script>
+      if ("ontouchstart" in window || navigator.maxTouchPoints) {
+        // Add a class to the body or specific elements for touch devices
+        document.body.classList.add("touch-device");
+      }
+    </script>
+  </body>
 </html>
