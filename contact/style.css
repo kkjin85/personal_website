@@ -32,14 +32,14 @@ main{
     border: 3px solid #fff;
     z-index: 1;
   }
-  
+
 .contact-icon li a .icon {
     position: relative;
     color: #262626;
     transition: .5s;
     z-index: 3;
   }
-  
+
 .contact-icon li a:hover .icon {
     color: #fff;
     transform: rotateY(360deg);
@@ -61,18 +61,14 @@ main{
     top: 0;
   }
   
-.contact-icon li:nth-child(1) a:before{
-    background: #3b5999;
-  }
-  
-.contact-icon li:nth-child(2) a:before{
-    background: #55acee;
-  }
-  
-.contact-icon li:nth-child(3) a:before {
-    background: #0077b5;
-  }
-  
-.contact-icon li:nth-child(4) a:before {
+.contact-icon li:nth-child(1) a:before {
     background: #dd4b39;
   }
+.contact-icon li:nth-child(2) a:before {
+    background: #0077b5;
+  }
+.contact-icon li:nth-child(3) a:before{
+    background: #d62976;
+  }
+
+  
