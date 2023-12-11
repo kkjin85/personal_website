@@ -18,6 +18,7 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    cursor: url(../image/icons8-cursor-50.png), auto;
 }
 
 
@@ -34,7 +35,7 @@ header{
     width: 100%;
     padding: 1rem;
     height: var(--header-height);
-    border-bottom: solid 1.5px black;
+    border-bottom: solid 1px black;
 
     display: flex;
     justify-content: space-between;
@@ -91,7 +92,7 @@ header .menu_text ul li a {
     background-image: linear-gradient(to right, rgb(150, 150, 150), rgb(150, 150, 150) 50%, black 50%);
     background-size: 200% 100%;
     background-position: -100%;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 header .menu_text ul li a:before {
@@ -105,7 +106,7 @@ header .menu_text ul li a:before {
     z-index: 0;
     position: absolute;
     background: rgb(150, 150, 150);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 header .menu_text ul li a:hover {
     background-position: 0%;
@@ -113,7 +114,6 @@ header .menu_text ul li a:hover {
 header .menu_text ul li a:hover:before {
     width: 100%;
 }
-
 
 .back-to-top{
     position: fixed;
@@ -129,12 +129,11 @@ header .menu_text ul li a:hover:before {
     border-radius: 50%;
 }
 
-
 footer{
     text-align: center;
     background-color: rgb(236, 236, 236);
     color: rgb(100, 100, 100);
-    padding: 2rem;
+    padding: 6rem 0rem 4rem 0rem;
 }
 
 #menu-bar{
@@ -144,10 +143,9 @@ footer{
 header label{
     display: none;
     cursor:  pointer;
-
 }
 
-@media screen and (max-width:991px){
+@media screen and (max-width:768px){
 
     header{
         padding:1rem;
@@ -188,14 +186,62 @@ header label{
         font-size: 18px;
         display: block;
         text-decoration: none;
+        background-image: none;
+        -webkit-background-clip: initial; /* Remove -webkit-background-clip */
+        -webkit-text-fill-color: initial; /* Remove -webkit-text-fill-color */
         transition: none;
     }
 
-    header .menu_text ul li a:before {
+   header .menu_text ul li a:before {
+        display: block;
+        content: '';
+        width: 0;
+        height: 0px;
+        bottom: 0px;
+        left: 0;
+        bottom: 0px;
+        text-decoration: none; 
         transition: none;
     }
+
+    header .menu_text ul li a:hover,
+    header .menu_text ul li a:hover:before {
+        text-decoration: none; /* Remove underline on hover */
+    }
+
 
     #menu-bar:checked ~ .menu_text{
         display: initial;
     }
+}
+
+/* Regular styles for all devices */
+.touch-device header .menu_text ul li a{
+    padding-right: 1rem;
+    text-align: end;
+    color: black;
+    font-size: 18px;
+    display: block;
+    text-decoration: none;
+    background-image: none;
+    -webkit-background-clip: initial; /* Remove -webkit-background-clip */
+    -webkit-text-fill-color: initial; /* Remove -webkit-text-fill-color */
+    transition: none;
+}
+
+.touch-device header .menu_text ul li a:before {
+    display: block;
+    content: '';
+    width: 0;
+    height: 0px;
+    bottom: 0px;
+    left: 0;
+    bottom: 0px;
+    text-decoration: none; 
+    transition: none;
+}
+
+.touch-device header .menu_text ul li a:hover,
+.touch-deviceheader .menu_text ul li a:hover:before {
+    text-decoration: none; /* Remove underline on hover */
 }
