@@ -57,15 +57,16 @@ main{
 .mepic {
     width: 30%;
     float: left;
-    padding: 0rem 2rem 5rem 0rem;
+    padding: 0rem 2rem 2rem 0rem;
 }
   
 .mebio {
-    width: 60%;
+    width: 40%;
+    display: flex;
     line-height: 1.4;
-    float: left;
+    float:left;
     font-size: 20px;
-    padding-right: 5rem;
+    padding-right: 0rem;
 }
 
 
@@ -75,7 +76,7 @@ main{
     }
     .mebio{
       width: 100%;
-      margin-top: -4rem;
+      margin-top: -1rem;
     }
 
   }
