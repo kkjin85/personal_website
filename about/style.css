@@ -66,17 +66,17 @@ main{
     line-height: 1.4;
     float:left;
     font-size: 20px;
-    padding-right: 0rem;
+    font-weight: 500;
 }
 
 
 @media screen and (max-width: 768px) {
     .mepic{
         width: 100%;
+        padding: 0rem 0rem 1.5rem 0rem;
     }
     .mebio{
       width: 100%;
-      margin-top: -1rem;
     }
 
   }
