@@ -129,7 +129,7 @@ body {
     box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.4), 5px 3px 5px 0px rgba(0,0,0,0.3), -5px 3px 5px 0px rgba(0,0,0,0.3);
 }
 
-.posters .jazz img{
+.posters .poster4 img{
     transform: perspective(2500px) translateY(-8.5%)rotateX(10deg);
 }
 
@@ -236,7 +236,7 @@ body {
     z-index: 1;    
     position: relative;
     width: 100%;
-    padding: 4rem 5rem 0rem 5rem;   
+    padding: 4rem 5rem 0rem 5rem;
 }
 
 .publications a::before{
@@ -325,6 +325,10 @@ body {
 
 .touch-device .publications .windycity img{
     transform: perspective(2500px) translateY(-40%)rotateX(10deg);
+}
+
+.touch-device .posters .poster2, .touch-device .posters .poster4, .touch-device .publications div{
+    overflow-x: clip;
 }
 
 /* .touch-device .posters, .touch-device .publications{
