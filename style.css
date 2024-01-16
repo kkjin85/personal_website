@@ -63,10 +63,86 @@ body {
     width: 100vw;
 }
 
+.hello{
+    padding: 1rem 1rem 2rem 0rem;
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.hello .hidden {
+    opacity:0;
+  }
+
+.hello .console-container {
+    font-size: 4rem;
+    text-align: start;
+    /* height:200px;
+    width:600px; */
+    display:block;
+    position:relative;
+    color:white;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin-top: var(--header-height);
+    height: 6rem;
+    padding: 2rem 1rem;
+    /* border-bottom: solid 1px black; */
+  }
+
+.hello .console-underscore {
+    display:inline-block;
+    position:relative;
+    top:-0.14em;
+    left:10px;
+  }
+
+.korean{
+    padding: 1rem 1rem 2rem 0rem;
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: 700;
+    border-bottom: solid 1px black; 
+    letter-spacing: 2px;
+}
+
+.korean .hidden {
+    opacity:0;
+  }
+
+.korean .console-container {
+   
+    font-size: 4rem;
+    text-align: end;
+    /* height:200px;
+    width:600px; */
+    display:block;
+    position:relative;
+    color:white;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    height: 8rem;
+    padding: 2rem 1rem;
+    /* border-bottom: solid 1px black; */
+  }
+
+/* .korean .console-underscore {
+    display:inline-block;
+    position:relative;
+    top:-0.14em;
+    left:10px;
+  } */
+
+
+/* 
 .landing-page{
     background-color: white;
     margin-top: var(--header-height);
-    /* background-color: aquamarine; */
     height: 24rem;
     padding: 2rem 1rem;
     display: flex;
@@ -86,7 +162,7 @@ body {
 
 .kyujinhan{
     align-self: end;
-}
+} */
 
 .posters-cat{
     background-color: rgb(236, 236, 236);
@@ -131,6 +207,10 @@ body {
 
 .posters .poster4 img{
     transform: perspective(2500px) translateY(-8.5%)rotateX(10deg);
+}
+
+.posters .poster6 img{
+    transform: perspective(3500px) translateY(-10%)rotateX(10deg);
 }
 
 .posters img:hover{

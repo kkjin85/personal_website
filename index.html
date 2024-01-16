@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <script src="p5.min-1.js"></script>
+    <script src="sketch.js" defer></script>
     <title>KyujinHan Website</title>
   </head>
   <body>
@@ -30,14 +31,28 @@
     </header>
 
     <main>
-      <div class="landing-page">
+
+      <div class="hello">
+        <div class='console-container'>
+          <span id='text1'></span>
+          <div class='console-underscore' id='console1'>&#95;</div>
+        </div>
+      </div>
+      <div class="korean">
+          <div class='console-container'>
+            <span id='text2'></span>
+            <!-- <div class='console-underscore' id='console2'>&#95;</div>
+          </div> -->
+          </div>
+       </div>
+      <!-- <div class="landing-page">
         <img
           class="designedby"
           src="./image/designedby.svg"
           alt="designed-by"
         />
         <img class="kyujinhan" src="./image/kyujinhan.svg" alt="kyujin-han" />
-      </div>
+      </div> -->
 
       <div class="posters-cat">
         <hr />
@@ -45,6 +60,11 @@
       </div>
 
       <div class="posters">
+        <div class="poster6">
+          <a href="./poster6/index.html"
+          ><img src="./image/(web-gif)AF-offset-poster.gif" alt="overprint"
+        /></a>
+        </div>
         <div class="poster1">
           <a href="./poster1/index.html"
             ><img src="./image/(web-final)architecture-poster.jpg" alt="repeat"
@@ -66,6 +86,7 @@
         <div class="poster5">
           <a href="./poster5/index.html"><img src="./image/(web)KyujinHan_MonsterHorror_Searching.jpg" alt="movie" /> </a>
         </div>
+
       </div>
 
       <div class="publications-cat">
