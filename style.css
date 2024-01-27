@@ -210,7 +210,7 @@ body {
 }
 
 .posters .poster6 img{
-    transform: perspective(3500px) translateY(-10%)rotateX(10deg);
+    transform: perspective(3500px) translateY(-10%)rotateX(9deg);
 }
 
 .posters img:hover{
