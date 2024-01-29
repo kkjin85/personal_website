@@ -1,6 +1,6 @@
 main{
     margin-top: var(--header-height);
-    /* background-color: rgb(210, 210, 210); */
+    background-color: rgb(236, 236, 236);
     padding: 1rem 1rem;
 
 }
@@ -53,6 +53,13 @@ main{
     letter-spacing: .4px; */
 }
 
+.role{
+    margin-left: -.2rem;
+    outline: solid black 1.5px;
+    line-height: 2rem;
+    padding: .1rem .2rem;
+}
+
 .details{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -62,7 +69,7 @@ main{
 }
 
 .details img{
-    object-fit: cover;
+    object-fit: contain;
     height: 100%;
     /* max-width: 1200px; */
 }
@@ -74,9 +81,11 @@ main{
 .details img:nth-child(5) { grid-area: 3 / 3 / 4 / 5; }
 .details img:nth-child(6) { grid-area: 3 / 5 / 4 / 7; }
 
+
+
 footer{
     text-align: center;
-    background-color: rgb(255, 255, 255) !important;
+    background-color: rgb(236, 236, 236) !important;
     color: rgb(100, 100, 100);
     padding: 6rem 0rem 4rem 0rem;
 }
@@ -87,6 +96,7 @@ footer{
     }
 
     .yes {
+        padding-top: 1rem;
         padding-right: 0;
     }
   }
