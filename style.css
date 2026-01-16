@@ -64,8 +64,8 @@ body {
 }
 
 .designedby{
-    padding: 1rem 1rem 2rem 0rem;
-    font-size: 4rem;
+    padding: 0rem 1rem 2rem 0rem;
+    font-size: 6rem;
     font-style: normal;
     font-weight: 500;
     letter-spacing: 2px;
@@ -76,7 +76,7 @@ body {
   }
 
 .designedby .console-container {
-    font-size: 4rem;
+    font-size: 6rem;
     text-align: start;
     /* height:200px;
     width:600px; */
@@ -89,7 +89,7 @@ body {
     right:0;
     margin-top: var(--header-height);
     height: 6rem;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem 1rem 2rem;
     /* border-bottom: solid 1px black; */
   }
 
@@ -102,7 +102,7 @@ body {
 
 .kyujinhan{
     padding: 1rem 1rem 2rem 0rem;
-    font-size: 4rem;
+    font-size: 6rem;
     font-style: normal;
     font-weight: 500;
     border-bottom: solid 1px black; 
@@ -115,7 +115,7 @@ body {
 
 .kyujinhan .console-container {
    
-    font-size: 4rem;
+    font-size: 6rem;
     text-align: end;
     /* height:200px;
     width:600px; */
