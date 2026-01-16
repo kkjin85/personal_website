@@ -350,6 +350,60 @@ body {
 }
 
 @media screen and (max-width:800px){
+
+    .designedby{
+    padding: 0rem 1rem 2rem 0rem;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+    .designedby .console-container {
+    font-size: 4rem;
+    text-align: start;
+    /* height:200px;
+    width:600px; */
+    display:block;
+    position:relative;
+    color:black;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin-top: var(--header-height);
+    height: 4rem;
+    padding: 2rem 1rem;
+    /* border-bottom: solid 1px black; */
+  }
+
+  .kyujinhan{
+    padding: 1rem 1rem 2rem 0rem;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 500;
+    border-bottom: solid 1px black; 
+    letter-spacing: 2px;
+}
+
+.kyujinhan .console-container {
+   
+    font-size: 4rem;
+    text-align: end;
+    /* height:200px;
+    width:600px; */
+    display:block;
+    position:relative;
+    color:black;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    height: 8rem;
+    padding: 2rem 1rem;
+    /* border-bottom: solid 1px black; */
+  }
+
     .posters, .publications{
         grid-template-columns: 1fr 1fr;
         gap: 3rem 0rem;
