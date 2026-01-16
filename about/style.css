@@ -9,8 +9,8 @@ main{
 .hello{
     padding: 1rem 1rem 2rem 0rem;
     font-size: 4rem;
-    font-style: italic;
-    font-weight: 700;
+    font-style: normal;
+    font-weight: 500;
     border-bottom: solid 1px black; 
     letter-spacing: 2px;
 }

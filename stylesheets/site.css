@@ -14,7 +14,7 @@ html{
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: DM Sans, Helvetica, sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;

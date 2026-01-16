@@ -66,8 +66,8 @@ body {
 .designedby{
     padding: 1rem 1rem 2rem 0rem;
     font-size: 4rem;
-    font-style: italic;
-    font-weight: 700;
+    font-style: normal;
+    font-weight: 500;
     letter-spacing: 2px;
 }
 
@@ -103,8 +103,8 @@ body {
 .kyujinhan{
     padding: 1rem 1rem 2rem 0rem;
     font-size: 4rem;
-    font-style: italic;
-    font-weight: 700;
+    font-style: normal;
+    font-weight: 500;
     border-bottom: solid 1px black; 
     letter-spacing: 2px;
 }
@@ -174,7 +174,7 @@ body {
     top: 20px;
     border: none;
     height: 1.45px;
-    width: 6.2rem;
+    width: 6.6rem;
     background: black;
     margin-bottom: 20px;
     margin-left: -1rem;
@@ -269,7 +269,7 @@ body {
     top: 20px;
     border: none;
     height: 1.5px;
-    width: 9.4rem;
+    width: 10.1rem;
     background: black;
     margin-bottom: 20px;
     margin-left: -1rem;
