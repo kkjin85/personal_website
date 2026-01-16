@@ -1,5 +1,5 @@
-consoleText(['designed by'], 'text1', ['black'], 'console1');
-consoleText(['kyujin han'], 'text2', ['black'], 'console2');
+consoleText(['kyujin\'s'], 'text1', ['black'], 'console1');
+consoleText(['shelf'], 'text2', ['black'], 'console2');
 
 function consoleText(words, id, colors, consoleId) {
   if (colors === undefined) colors = ['#fff'];
