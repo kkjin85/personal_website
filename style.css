@@ -202,7 +202,7 @@ body {
     transform-style: preserve-3d;
     transform: perspective(3000px) translateY(-9%) rotateX(10deg);
     object-fit: contain;
-    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.4), 5px 3px 5px 0px rgba(0,0,0,0.3), -5px 3px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.3), 5px 3px 5px 0px rgba(0,0,0,0.2), -5px 3px 5px 0px rgba(0,0,0,0.2);
 }
 
 .posters .poster4 img{
@@ -211,16 +211,17 @@ body {
 
 .posters .poster6 img{
     transform: perspective(3500px) translateY(-10%)rotateX(9deg);
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2), 5px 3px 5px 0px rgba(0,0,0,0.1), -5px 3px 5px 0px rgba(0,0,0,0.1);
 }
 
 .posters img:hover{
     transform: scale(1.025) translateY(-12%);
-    box-shadow: 9px 4px 12px 2px rgba(0,0,0,0.15), -9px 4px 12px 2px rgba(0,0,0,0.15);
+    box-shadow: 9px 4px 12px 2px rgba(0,0,0,0.1), -9px 4px 12px 2px rgba(0,0,0,0.1);
 }
 
 .posters .poster6 img:hover{
     transform: scale(1.025) translateY(-14%);
-    box-shadow: 9px 4px 12px 2px rgba(0,0,0,0.15), -9px 4px 12px 2px rgba(0,0,0,0.15);
+    box-shadow: 9px 4px 12px 2px rgba(0,0,0,0.05), -9px 4px 12px 2px rgba(0,0,0,0.05);
 }
 
 .posters div{
@@ -256,7 +257,7 @@ body {
     bottom: -35px;
     z-index: -1;
     background: rgb(100,100,100);
-    background: linear-gradient(180deg, rgba(120,120,120,1) 0%, rgba(236,236,236,1) 70%);
+    background: linear-gradient(180deg, rgba(160,160,160,1) 0%, rgba(236,236,236,1) 50%);
 }
 
 .publications-cat{
@@ -297,7 +298,7 @@ body {
     transform-style: preserve-3d;
     transform: perspective(5000px) translateY(-7%) rotateX(10deg);
     object-fit: contain;
-    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.4), 5px 3px 5px 0px rgba(0,0,0,0.3), -5px 3px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.3), 5px 3px 5px 0px rgba(0,0,0,0.2), -5px 3px 5px 0px rgba(0,0,0,0.2);
 }
 
 .publications .lemans img{
@@ -306,7 +307,7 @@ body {
 
 .publications img:hover{
     transform: scale(1.025) translateY(-12%);
-    box-shadow: 9px 4px 12px 2px rgba(0,0,0,0.15), -9px 4px 12px 2px rgba(0,0,0,0.15);
+    box-shadow: 9px 4px 12px 2px rgba(0,0,0,0.1), -9px 4px 12px 2px rgba(0,0,0,0.1);
 }
 
 .publications .windycity img{
@@ -345,7 +346,7 @@ body {
     bottom: -35px;
     z-index: -1;
     background: rgb(100,100,100);
-    background: linear-gradient(180deg, rgba(120,120,120,1) 0%, rgba(236,236,236,1) 70%);
+    background: linear-gradient(180deg, rgba(160,160,160,1) 0%, rgba(236,236,236,1) 50%);
 }
 
 @media screen and (max-width:800px){
